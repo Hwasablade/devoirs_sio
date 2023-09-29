@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    background-color:#C56752;
+}
+
+.main{
+    background-color: #FFFF;
+    width: 528px;
+    height:603px;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 5%;
+    box-shadow: 0px 4px 50px 10px rgba(0, 0, 0, 0.25);
+}
+.locker{
+    width: 103px;
+    margin-left: 35%;
+    margin-top: 7%;
+}
+h1{
+    width: 198px;
+    height: 39px;
+    margin-left: 28%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+.user{
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 394px;
+    height: 74px;
+    margin-left: 10%;
+    border-bottom: 5px solid #C56752;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.53);
+}
+
+.pass{
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 394px;
+    height: 74px;
+    margin-left: 10%;
+    border-bottom: 5px solid #C56752;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.53); 
+}
+.btn{
+    border: none;
+    outline: none;
+    width: 375px;
+    height: 55px;
+    margin-left: 12%;
+    margin-top: 15%;
+    background: linear-gradient(269.88deg, #C56752 -10.17%, #5BB4A9 131.3%, rgba(217, 217, 217, 0) 131.3%);
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    transition: 1s;
+    transition: color 1s ease;
+}
+.forget{
+width: 177px;
+height: 33px;
+margin-left: 55%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+transition: 1s;
+
+color: rgba(0, 0, 0, 0.53);
+
+
+}
+.forget:hover{
+    color: #C56752;
+}
